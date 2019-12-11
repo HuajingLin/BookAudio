@@ -1,12 +1,16 @@
-# BookShelf
-## user can play the book they are currently viewing
-## Activity can display the title of the currently playing book with a “Now Playing” header.
-## user can pause the currently playing book.
-## user can stop the currently playing book.
-## Using SeekBar Show the progress of the currently playing book (between 0 and 100%).
-## user can move forward and backward within a book (between 0 and 100%) by dragging the position of the same seekbar that shows book progress.
-## There is no interruption in audio playback if the activity is restarted. That is, if the user, for example, rotates the device and forces a configuration change while a book is playing, the audio will continue to play uninterrupted while the activity restarts, and user can still be able to control the book once the activity is restarted.
+# Books and Audios
+## Application can keep current book after rotating orientation.
+## Application can download audiobooks if no local copy of book exists.
+## Application can delete audiobook if a local copy was previously downloaded.
+## Application plays downloaded version of audiobook if available, or it streams if not.
+## Application is aware of currently playing book, even after activity restart or rotating orientation.
+## Application keeps track of books returned from last search, even after activity restart, including closing the application entirely and then reopening it.
+## Book progress is saved when a book is paused.
+## Book progress is saved if a new book is started while another book was previously playing.
+## Book plays from previously saved progress if downloaded, but starts from 0 if streaming.
+## Pressing Stop when a book is playing resets its saved position to 0 seconds
 
-![Screen Shot 2019-12-02 at 9 28 09 PM](https://user-images.githubusercontent.com/42784914/70015777-638b6900-154c-11ea-8699-71a4b0eefb60.png)
+![Screen Shot 2019-12-11 at 11 24 25 AM](https://user-images.githubusercontent.com/42784914/70641720-0ce8f380-1c0c-11ea-8dd9-5c49db92eab8.png)
 
-![Screen Shot 2019-12-02 at 9 28 43 PM](https://user-images.githubusercontent.com/42784914/70015782-65edc300-154c-11ea-9d9c-5dfd7ae3a57e.png)
+![Screen Shot 2019-12-11 at 11 23 57 AM](https://user-images.githubusercontent.com/42784914/70641727-0f4b4d80-1c0c-11ea-898c-3a7a609f8b43.png)
+
